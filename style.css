@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  font-family: Arial, sans-serif;
+  background-color: rgb(37, 155, 155);
+  font-family: 'Bodoni Moda', serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.surprise-box {
+  position: fixed;
+  top: 30%;
+  left: 110px;
+  transform: translateY(-50%);
+  padding: 20px;
+  border-radius: 25px;
+  z-index: 2;
+  cursor: pointer;
+  background: linear-gradient(to top, orange 50%, rgb(207, 223, 123) 50%);
+  background-size: 100% 200%;
+  transition: all .8s;
+}
+
+.surprise-box:hover {
+  background-position: left bottom;
+  color: white;
+  border: none;
+  box-shadow: 0 0 20px rgb(255,45,4);
+}
+
+
+.box-text {
+  color: rgb(182, 25, 169) ;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.surprise-box4 {
+  position: fixed;
+  top: 55%;
+  left: 110px;
+  transform: translateY(-50%);
+  padding: 20px;
+  border-radius: 25px;
+  z-index: 2;
+  cursor: pointer;
+  background: linear-gradient(to top, rgb(138, 133, 128) 50%, rgb(242, 154, 72) 50%);
+  background-size: 100% 200%;
+  transition: all .8s;
+}
+
+.surprise-box4:hover {
+  background-position: left bottom;
+  color: white;
+  border: none;
+  box-shadow: 0 0 20px rgb(255,45,4);
+}
+
+
+.box-text4 {
+  color: rgb(21, 19, 20) ;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.surprise-box1 {
+  position: fixed;
+  top: 80%;
+  left: 110px;
+  transform: translateY(-50%);
+  padding: 20px;
+  border-radius: 25px;
+  z-index: 2;
+  cursor: pointer;
+  background: linear-gradient(to top, rgb(58, 185, 54) 50%, rgb(226, 153, 124) 50%);
+  background-size: 100% 200%;
+  transition: all .8s;
+}
+
+.surprise-box1:hover {
+  background-position: left bottom;
+  color: white;
+  border: none;
+  box-shadow: 0 0 20px rgb(188, 114, 100);
+}
+
+
+.box-text1 {
+  color: rgb(230, 160, 133);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.surprise-box2 {
+  position: fixed;
+  top: 80%;
+  right: 85px;
+  transform: translateY(-50%);
+  padding: 20px;
+  border-radius: 25px;
+  z-index: 2;
+  cursor: pointer;
+  background: linear-gradient(to top, orange 50%, rgb(207, 223, 123) 50%);
+  background-size: 100% 200%;
+  transition: all .8s;
+}
+
+.surprise-box2:hover {
+  background-position: left bottom;
+  color: white;
+  border: none;
+  box-shadow: 0 0 20px rgb(255,45,4);
+}
+
+.box-text2 {
+  color: rgb(172, 20, 20);
+  font-size: 18px;
+  margin-bottom: 10px; 
+}
+
+.surprise-box3 {
+  position: fixed;
+  top: 40%;
+  right: 110px;
+  transform: translateY(-50%);
+  padding: 20px;
+  border-radius: 25px;
+  z-index: 2;
+  cursor: pointer;
+  background: linear-gradient(to top, rgb(0, 255, 110) 50%, rgb(54, 135, 185) 50%);
+  background-size: 100% 200%;
+  transition: all .8s;
+}
+
+.surprise-box3:hover {
+  background-position: left bottom;
+  color: rgb(9, 9, 9);
+  border: none;
+  box-shadow: 0 0 20px rgb(255,45,4);
+}
+
+.box-text3 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+
+h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 20px;
+  transition: font-size 0.3s, color 0.3s, text-decoration 0.3s;
+}
+
+h1:hover {
+  font-size: 2rem;
+  color: red;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #8bb520;
+  text-align: center;
+}
+
+img {
+  width: 650px;
+  height: 500px;
+  float: right;
+}
+
+#confetti-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.bubble {
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+
+
